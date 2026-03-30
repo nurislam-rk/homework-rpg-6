@@ -56,4 +56,4 @@ Start the chain by calling `dodge.handle(incomingDamage, hero)`.
 - [ ] Does `DodgeHandler` stop the chain when a dodge succeeds?
 - [ ] Does `HpHandler` never call `passToNext()`?
 - [ ] Does `BlockHandler` always forward to the next handler (even if damage is reduced to 0)?
-- [ ] Is the chain built using `hero.getBlockRating() / 100.0` (double), not `hero.getBlockRating()` (int)?
+- [ ] Is the chain built using `hero.getBlockRating() / 100.0` (double), not `hero.getBlockRating()` (int)?            

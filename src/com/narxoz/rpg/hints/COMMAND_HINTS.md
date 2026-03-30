@@ -44,3 +44,4 @@ The receiver knows nothing about the invoker — it only exposes methods that co
 - [ ] Does `undoLast()` change the queue without executing any command?
 - [ ] Does `executeAll()` leave the queue empty after all commands run?
 - [ ] Does `AttackCommand.undo()` use `damageDealt`, not `attackPower`?
+          
